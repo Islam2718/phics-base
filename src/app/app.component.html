@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="col text-center bg-primary bg-gradient text-white p-3">
+    <h1>PhicsBase - Developer Portal</h1>
+  </div>  
+  <div class="row p-3">
+    <div class="col-2">
+      <nav>
+        <ul>
+          <li><a routerLink="/dashboard">Dashboard</a></li>
+          <li><a routerLink="/login">Login</a></li>
+          <li><a routerLink="/registration">Registration</a></li>
+          <li><a routerLink="/site-settings">Site Settings</a></li>
+          <li><a routerLink="/business-projects">Business/Projects</a></li>
+          <!-- separator  -->
+          <h5 class="bg-primary bg-gradient p-2 my-1 list-style-none">Blog</h5>
+          <li><a routerLink="/blog-pages">Blog Pages</a></li>
+          <li><a routerLink="/blog-sections">Blog Sections</a></li>
+          <li><a routerLink="/blog-widgets">Blog Widgets</a></li>
+          <li><a routerLink="/blog-category-list">Blog Category List</a></li>
+          <li><a routerLink="/blog-category-add-edit">Blog Category Add/Edit</a></li>
+          <!-- separator  -->
+          <h5 class="bg-primary bg-gradient p-2 my-1 list-style-none">eCommerce</h5>
+          <li><a routerLink="/ecom-product-category">eCom - Product Category</a></li>
+          <li><a routerLink="/ecom-product">eCom - Product</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="col-10">
+      <div class="card p-3 h-100">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+  <div class="col text-center bg-primary bg-gradient text-white p-0 mb-0">
+    <p>Powered By - PhicsBase</p>
+  </div>    
+</div>
